@@ -1,4 +1,4 @@
-.mainrow {
+/*.mainrow {
   display: flex;
 }
 
@@ -26,7 +26,7 @@
 
 /*.reactcolumn, .vitecolumn {
     display: flex;
-}*/
+}
 
 .rest h2 {
   padding-right: 60px;
@@ -36,4 +36,8 @@
 .rest a {
   margin-left: 5px;
   margin-top: -10px;
+}*/
+
+.menucard {
+  color: blue;
 }

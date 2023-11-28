@@ -5,9 +5,9 @@ export function Card({ image, titel, linkprop }) {
     <div>
       <img src={image} />
       <h2> {titel} </h2>
-      <a href={linkprop}>{linkprop}</a>
+      <a className="menucard" href={linkprop}>
+        {linkprop}
+      </a>
     </div>
   );
 }
-
-

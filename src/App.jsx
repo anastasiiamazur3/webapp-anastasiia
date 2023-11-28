@@ -5,6 +5,8 @@ import "./App.css";
 import { Hello } from "./Hello";
 import { Card } from "./Card/Card";
 import { Hooks } from "./Hooks/Hooks";
+import { Input } from "./Input";
+import { Menu } from "./Menu/Menu"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,29 +15,12 @@ function App() {
   return (
     <>
       {/*Kommentar*/}
-      {/*<Hello name={"World"} frage={"wie geht's?"} />
-      <Hello name={"Earth"} />
+      
+      {/*<Hello name={"Earth"} />
   <Hello name={"Saturn"} />*/}
+  <Menu />
       <Hooks />
-      <div class="mainrow">
-        <div class="reactcolumn">
-          <div class="image">
-          </div>
-          <div class="rest">
-            <Card titel={"React"} linkprop={"https://react.dev"} 
-            image={reactLogo} />
-
-          </div>
-        </div>
-        <div class="vitecolumn">
-          <div class="image">
-            <Card image={viteLogo} />
-          </div>
-          <div class="rest">
-            <Card titel={"Vite"} linkprop={"https://vitejs.dev"} />
-          </div>
-        </div>
-      </div>
+      <Input />
     </>
   );
 }
